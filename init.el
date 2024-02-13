@@ -75,6 +75,9 @@
 (use-package rainbow-mode
   :ensure t)
 
+(use-package markdown-mode
+  :ensure t)
+
 (setq-default fill-column 80)
 (add-hook 'prog-mode-hook
 	  (defun brw/prog-mode-hook ()
